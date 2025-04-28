@@ -1,0 +1,15 @@
+# ignore all __pycache__ directories from all subdirectories
+__pycache__/*
+
+# ignore all .pyc files from all subdirectories
+*.pyc
+
+# ignore all .pyo files from all subdirectories
+*.pyo
+
+# ignore all .pyd files from all subdirectories
+*.pyd
+
+# ignore .env 
+.env
+
