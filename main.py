@@ -3,4 +3,4 @@ from app.controllers import user_controller
 
 app = FastAPI()
 
-app.include_router(user_controller.router)
+app.include_router(user_controller.router, prefix='/api/v1/users_route')
