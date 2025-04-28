@@ -1,5 +1,5 @@
 # ignore all __pycache__ directories from all subdirectories
-__pycache__/*
+__pycache__/
 
 # ignore all .pyc files from all subdirectories
 *.pyc
